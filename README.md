@@ -61,7 +61,7 @@ User Registration <br>
   -> Description: Registers a new user with encrypted password. <br>
   -> Request Body : <br>
 
-  <img width="299" alt="image" src="https://github.com/user-attachments/assets/1f515e44-45b9-4422-89b8-8792c5ec6415" /> <br>
+  <img width="241" alt="image" src="https://github.com/user-attachments/assets/e1d43b29-d590-46bd-a0bc-d93ddba2c8b9" /> <br>
 
   -> Response : <br>
 
