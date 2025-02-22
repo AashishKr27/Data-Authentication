@@ -61,11 +61,11 @@ User Registration
   -> Description: Registers a new user with encrypted password.
   -> Request Body :
 
-    <img width="299" alt="image" src="https://github.com/user-attachments/assets/1f515e44-45b9-4422-89b8-8792c5ec6415" />
+  <img width="299" alt="image" src="https://github.com/user-attachments/assets/1f515e44-45b9-4422-89b8-8792c5ec6415" />
 
   -> Response :
 
-    <img width="254" alt="image" src="https://github.com/user-attachments/assets/67cc6a1e-5ab7-43b4-8018-3c3731057c5c" />
+  <img width="254" alt="image" src="https://github.com/user-attachments/assets/67cc6a1e-5ab7-43b4-8018-3c3731057c5c" />
 
 # User Login
   -> Endpoint: POST /login
