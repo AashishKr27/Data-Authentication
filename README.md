@@ -2,8 +2,8 @@
 
 # Overview
 
-  -> Data Authentication is a Node.js-based web application that provides user authentication using MongoDB,
-     Express.js, and JWT (JSON Web Tokens). This project allows users to create accounts, log in, and maintain authentication sessions securely.
+  -> Data Authentication is a Node.js-based web application that provides user authentication using MongoDB, Express.js, <br>
+     and JWT (JSON Web Tokens). This project allows users to create accounts, log in, and maintain authentication sessions securely.
 
 # Features
 
@@ -65,18 +65,29 @@ User Registration <br>
 
   -> Response : <br>
 
-  <img width="254" alt="image" src="https://github.com/user-attachments/assets/67cc6a1e-5ab7-43b4-8018-3c3731057c5c" />
+  <img width="260" alt="image" src="https://github.com/user-attachments/assets/20d8adb1-56fa-4d67-ae72-a7a498e5df4b" />
 
 # User Login
-  -> Endpoint: POST /login
-  -> Description: Authenticates user and issues a JWT token.
-  -> Request Body :
+  -> Endpoint: POST /login <br>
+  -> Description: Authenticates user and issues a JWT token. <br>
+  -> Request Body : <br>
 
-  <img width="224" alt="image" src="https://github.com/user-attachments/assets/f254b374-d6b6-4ff1-a821-63ff5f8492a7" />
+  <img width="224" alt="image" src="https://github.com/user-attachments/assets/f254b374-d6b6-4ff1-a821-63ff5f8492a7" /> <br>
 
-  -> Response :
-    "Logged in"
+  -> Response : <br>
+    "Logged in" <br>
     
 # Logout
-  -> Endpoint: GET /logout
-  -> Description: Clears the authentication token.
+  -> Endpoint: GET /logout <br>
+  -> Description: Clears the authentication token. <br>
+
+# Security Measures
+
+  -> Password Hashing: All passwords are hashed using bcrypt. <br>
+
+  -> JWT Authentication: JSON Web Tokens ensure secure authentication. <br>
+
+  -> Cookie-Based Sessions: Auth tokens are stored securely in HTTP-only cookies. <br>
+
+# Output
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/56fb1a03-f595-4912-a3eb-42339d217606" />
