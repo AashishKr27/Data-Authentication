@@ -37,7 +37,7 @@ Ensure you have the following installed on your system:
 
   -> MongoDB
 
-Steps
+# Steps
 1. Install dependencies :
    -> npm init -y
    -> npm i express bcrypt mongoose cookie-parser jsonwebtoken ejs
@@ -48,46 +48,35 @@ Steps
 3. Open your browser and navigate to :
    -> http://localhost:3000
 
-Project Structure
+# Project Structure
 
-data-authentication/
+# data-authentication/
 
 <img width="431" alt="image" src="https://github.com/user-attachments/assets/3a8bff0d-bfb5-49d8-8ea3-40988fc354a4" />
 
-API Endpoints
+# API Endpoints
 
 User Registration
-
   -> Endpoint: POST /create
-
   -> Description: Registers a new user with encrypted password.
-
   -> Request Body :
-    {
-      "username": "testuser",
-      "email": "test@example.com",
-      "password": "securepassword",
-      "age": 25
-    }
-  -> Response :
-    {
-      "_id": "601d5f1e9d1b2c001f0c1234",
-      "username": "testuser",
-      "email": "test@example.com",
-      "age": 25
-    }
 
-User Login
+    <img width="299" alt="image" src="https://github.com/user-attachments/assets/1f515e44-45b9-4422-89b8-8792c5ec6415" />
+
+  -> Response :
+
+    <img width="254" alt="image" src="https://github.com/user-attachments/assets/67cc6a1e-5ab7-43b4-8018-3c3731057c5c" />
+
+# User Login
   -> Endpoint: POST /login
   -> Description: Authenticates user and issues a JWT token.
   -> Request Body :
-  {
-    "email": "test@example.com",
-    "password": "securepassword"
-  }
+
+  <img width="224" alt="image" src="https://github.com/user-attachments/assets/f254b374-d6b6-4ff1-a821-63ff5f8492a7" />
+
   -> Response :
     "Logged in"
     
-Logout
+# Logout
   -> Endpoint: GET /logout
   -> Description: Clears the authentication token.
