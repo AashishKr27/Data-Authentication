@@ -1,11 +1,11 @@
 # Data Authentication
 
-Overview
+# Overview
 
   -> Data Authentication is a Node.js-based web application that provides user authentication using MongoDB,
      Express.js, and JWT (JSON Web Tokens). This project allows users to create accounts, log in, and maintain authentication sessions securely.
 
-Features
+# Features
 
   -> User Registration
 
@@ -19,7 +19,7 @@ Features
 
   -> Responsive UI using Tailwind CSS
 
-Tech Stack
+# Tech Stack
 
   -> Backend: Node.js, Express.js, Mongoose, JWT, bcrypt, cookie-parser
 
@@ -27,7 +27,7 @@ Tech Stack
 
   -> Database: MongoDB
 
-Installation
+# Installation
 
 Prerequisites
 
@@ -51,16 +51,8 @@ Steps
 Project Structure
 
 data-authentication/
-│── models/
-│   └── user.js         # User schema and model
-│── views/
-│   ├── index.ejs       # Registration page
-│   ├── login.ejs       # Login page
-│── public/
-│   └── stylesheets/
-│── app.js              # Main application file
-│── package.json        # Project dependencies
-│── package-lock.json   # Dependency lock file
+
+<img width="431" alt="image" src="https://github.com/user-attachments/assets/3a8bff0d-bfb5-49d8-8ea3-40988fc354a4" />
 
 API Endpoints
 
