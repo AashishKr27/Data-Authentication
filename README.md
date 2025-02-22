@@ -50,7 +50,7 @@ Ensure you have the following installed on your system:
 
 # Project Structure
 
-<img width="431" alt="image" src="https://github.com/user-attachments/assets/3a8bff0d-bfb5-49d8-8ea3-40988fc354a4" />
+<img width="339" alt="image" src="https://github.com/user-attachments/assets/9ca7f784-84e1-467c-a112-2a6106efbb43" />
 
 # API Endpoints
 
