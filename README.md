@@ -38,14 +38,14 @@ Ensure you have the following installed on your system:
   -> MongoDB
 
 # Steps
-1. Install dependencies :
-     -> npm init -y
-     -> npm i express bcrypt mongoose cookie-parser jsonwebtoken ejs
+1. Install dependencies : <br>
+     -> npm init -y <br>
+     -> npm i express bcrypt mongoose cookie-parser jsonwebtoken ejs <br>
    
-3. Run the application :
-   -> npx nodemon app.js
+3. Run the application : <br>
+   -> npx nodemon app.js <br>
 
-5. Open your browser and navigate to :
+5. Open your browser and navigate to : <br>
    -> http://localhost:3000
 
 # Project Structure
